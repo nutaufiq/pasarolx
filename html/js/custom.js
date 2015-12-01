@@ -22,12 +22,25 @@ $('#tanggal2').change(function() {
 	$('#form-data').show('fast');
 });
 
-$('#addinput').click(function() {
-	 $("<input type='text' />")
-     .attr("id", "myfieldid")
-     .attr("class", "form-control")
-     .attr("placeholder", "http://")
-     .appendTo("#link-iklan");
-     return true;
+// $('#addinput').click(function() {
+// 	 $("<div><input type='text' class='form-control' placeholder='http://' /><span class='glyphicon glyphicon-remove form-control-feedback removeinput' aria-hidden='true'></span></div>")
+//      .appendTo("#link-iklan");
+//      return true;
+// });
+
+// $('.form-control-feedback').click(function() {
+// 	alert('remove');
+//     //$(this).parent().remove();
+// });
+
+var wrapper = $(".input-iklan>div");
+var add_button = $("#addinput");
+
+$(add_button).click(function (e) {
+    e.preventDefault();
+    $(wrapper).after("<div class='has-feedback'><input type='text' class='form-control' placeholder='http://' /><span class='glyphicon glyphicon-remove form-control-feedback removeinput' aria-hidden='true'></span></div>"); //add input box
 });
 
+$(document).on("click",".form-control-feedback",function(){
+    $(this).parent().remove();
+});
