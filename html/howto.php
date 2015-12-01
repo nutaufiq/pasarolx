@@ -20,18 +20,24 @@
   </head>
   <body>
     <div class="col-xs-12 col-md-4 col-md-offset-4 howto">
-          <div class="howto-logo"><center>PASAR <img src="images/logoolx.png"></center></div>
+          <div class="howto-logo"><center><img src="images/logoblue.png"></center></div>
           <div class="howto-text">
-              Simak caranya di bawah ini:
-              <ol>
-              <li>Iklankan barang yang akan dijual di OLX. Sertakan tagar #PasarOLX  di judul iklan.</li>
-              <li>Masuk ke PasarOLX.id, daftarkan diri Anda dan mobil Anda.</li>
-              <li>Angkut barang-barang yang akan dijual di bagasi mobil dan parkirkan di acara Pasar OLX.</li>
-              <li>Lakukan transaksi di event Pasar OLX secara aman.</li>
-              </ol>
+              Cara ikutannya: <br>
+              <ul>
+              <li>Iklankan barang yang ingin dijual di OLX.co.id dengan menyertakan hashtag #PasarOLX di judul iklan</li>
+              <li>Klik "Daftar Sekarang" untuk ikutan agar kami bisa menyediakan tempat jualan kamu</li>
+              <li>Angkut barang-barang yang akan dijual di bagasi mobil kamu, pamerkan, lalu jual</li>
+              <li>Lakukan transaksi secara aman dengan ketemuan dan bayar di tempat</li>
+              </ul>
           </div>
-          <div class="howto-button"><a href="form.php">DAFTAR SEKARANG</a></div>
-      <div class="footer">Follow us on <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-twitter"></i></a> <div class="powered">Powered by OLX.co.id</div></div>
+          <div class="howto-button"><a href="register.php">DAFTAR SEKARANG</a></div>
+      <div class="footer">
+        <a href=""><img src="images/facebook.png"></a>
+        <a href=""><img src="images/twitter.png"></a>
+        <a href=""><img src="images/instagram.png"></a>
+        <a href=""><img src="images/youtube.png"></a>
+        <div class="powered">Powered by OLX.co.id</div>
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
