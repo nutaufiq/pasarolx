@@ -23,12 +23,18 @@
     <div class="col-xs-12 col-md-4 col-md-offset-4 home">
       <div class="banner-box">
         <div class="banner-boxcontent">
-          <div class="home-logo"><center>PASAR <img src="images/logoolx.png"></center></div>
-          <div class="home-text">Ingin jual cepat barang-barang bekas berkualitas? Ikutan Pasar OLX aja! Pasar OLX mempertemukan para pemilik barang tak terpakai dengan para calon pembelinya. Tinggal janjian, muat barang di bagasi mobil Anda, pamerkan dan jual. Transaksi aman, semua pihak dapat keuntungan.</div>
+          <div class="home-logo"><center><img src="images/logowhite.png"></center></div>
+          <div class="home-text">Punya barang bekas berkualitas atau barang-barang koleksi yang ingin dijual? Ikutan pasar OLX aja! Di sini kamu akan dipertemukan dengan calon pembeli dengan cara gampang dan gratis! Tinggal daftar, muat barang di bagasi mobil, pamerkan lalu jual</div>
           <div class="home-button"><a href="howto.php">MAU IKUTAN?</a></div>
          </div>
       </div>
-      <div class="footer">Follow us on <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-twitter"></i></a> <div class="powered">Powered by OLX.co.id</div></div>
+      <div class="footer">
+        <a href=""><img src="images/facebook.png"></a>
+        <a href=""><img src="images/twitter.png"></a>
+        <a href=""><img src="images/instagram.png"></a>
+        <a href=""><img src="images/youtube.png"></a>
+        <div class="powered">Powered by OLX.co.id</div>
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

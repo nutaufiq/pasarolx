@@ -4,6 +4,9 @@ html, body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 }
+label{
+	font-weight: normal;
+}
 .has-feedback label ~ .form-control-feedback{
 	top:44px;
 	color: #FFF;
@@ -33,7 +36,7 @@ html, body{
 	text-align: center;
 	background-image: url(../images/bgimage-lg.jpg);
 	background-size: cover;	
-	background-position: center center;
+	background-position: center bottom;
 	background-attachment: fixed;
 }
 .home-text{
@@ -54,12 +57,12 @@ html, body{
 }
 .home-logo{
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	font-size: 3em;
 	font-weight: 100;
 }
 .home-logo img{
-	width:40px;	
+	width:250px;	
 	vertical-align: middle;
 }
 .home-selamat{
@@ -71,20 +74,21 @@ html, body{
 	margin-bottom: 40px;	
 }
 .home-button a{
-	background-color: #00509D;
+	background-color: #1F66AB;
 	color: #FFF;
 	padding: 10px 40px;
 	font-size: 1.5em;
+	border-radius: 5px;
 }
 .home-button a:hover{
-	background-color: #0262B2;
+	background-color: #3B87C4;
 	text-decoration: none;
 }
 .howto{
-	background-color: #00509D;
+	background-image: url(../images/bgwhite.jpg);
+	background-position: center bottom;
 	text-align: center
-	color: #FFF;
-	height: 100%;
+	color: #2B2B2B;
 }
 .howto-logo{
 	text-align: center;
@@ -101,24 +105,25 @@ html, body{
 .howto-text{
 	line-height: 2em;
 	text-align: left;
-	color: #FFF;
+	color: #2B2B2B;
 }
-.howto-text ol{
+.howto-text ul{
 	padding-left:15px;
 }
 .howto-button{
 	margin-top: 30px;	
-	margin-bottom: 40px;	
+	margin-bottom: 80px;	
 	text-align: center;
 }
 .howto-button a{
-	background-color: #F37721;
+	background-color: #1F66AB;
 	color: #FFF;
 	padding: 10px 40px;
 	font-size: 1.5em;
+	border-radius: 5px;
 }
 .howto-button a:hover{
-	background-color: #F2995C;
+	background-color: #3B87C4;
 	text-decoration: none;
 }
 .howto-logo{
@@ -130,14 +135,17 @@ html, body{
 	color: #FFF;
 }
 .howto-logo img{
-	width:40px;	
+	width:180px;	
 	vertical-align: middle;
+	margin-bottom:10px;
 }
 
 .register{
-	background-color: #FFF;
-	color:#00509D;
+	background-image: url(../images/bgwhite.jpg);
+	background-position: center bottom;
+	color:#2B2B2B;
 	text-align: center;
+	min-height: 600px;
 }
 #pilih-area option{
 	padding: 3px 0px;
@@ -182,8 +190,8 @@ html, body{
 	font-size: 1em;
 }
 .register select.form-control{
-	background-color: #6897c2;
-	color: #FFF;
+	background-color: #F2F2F2;
+	color: #2B2B2B;
 	border-radius: 3px;
 }
 .form-data .form-group label{
@@ -191,17 +199,17 @@ html, body{
 	margin-bottom: 0px;
 }
 .form-data input{
-	background-color: #6897c2;
-	color: #FFF;
+	background-color: #F2F2F2;
+	color: #2B2B2B;
 	height: 30px
 }
 .form-data textarea{
-	background-color: #6897c2;
-	color: #FFF;	
+	background-color: #F2F2F2;
+	color: #2B2B2B;	
 }
 .register-button{
 	margin-top: 30px;	
-	margin-bottom: 40px;	
+	margin-bottom: 100px;	
 	text-align: center;
 }
 .register-button a{
@@ -229,7 +237,10 @@ input[type="checkbox"], input[type="radio"]{
 	margin: 0px;
 }
 .checkbox input[type="checkbox"]{
-	margin-top: -6px;
+	/*margin-top: -4px;*/
+}
+.checkbox-tanggal{
+	margin-left: 20px;
 }
 .termss{
 	color:#00509D;
@@ -249,6 +260,11 @@ input[type="checkbox"], input[type="radio"]{
 .terms-text ol{
 	padding-left: 15px;
 }
+.btn-terms{
+	background-color: #1F66AB;
+	color: #FFF;
+	padding: 5px 30px;
+}
 .modal-header{
 	padding: 3px 0px 0px;
 	border-bottom: 0px;
@@ -258,7 +274,10 @@ input[type="checkbox"], input[type="radio"]{
 }
 
 .thankyou{
-	background-color: #00509D;	
+	background-image: url(../images/bgimage-lg.jpg);
+	background-size: cover;	
+	background-position: center bottom;
+	background-attachment: fixed;
 	text-align: center;
 	height: 100%;
 }
@@ -270,25 +289,41 @@ input[type="checkbox"], input[type="radio"]{
 	color: #FFF;
 }
 .thankyou-logo img{
-	width:40px;	
+	width:200px;	
 	vertical-align: middle;
 }
 .thankyou-name{
 	font-size: 2em;
 	text-align: center;
-	color: #FFF;
+	color: #A1B33D;
+	font-weight: 300;
 }
 .thankyou-name img{
 	margin-top:10px;
 	width: 120px;
 }
 .thankyou-id{
-	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+	color: #A1B33D;
+	font-weight: 700;
+}
+.thankyou-message{
+	font-size: 2em;
+	font-weight: 700;
+}
+.thankyou-message2{
+	font-weight: 400;	
 }
 .thankyou-id span{
 	font-size: 3em;
 	color: #F37721;
 	line-height: 3em;
+}
+.thankyou-text{
+	border-top: 1px solid #FFF;
+	padding-top: 10px;
+	margin-top: 10px;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -313,6 +348,9 @@ input[type="checkbox"], input[type="radio"]{
 }
 .form-control::-moz-placeholder{
 	color: #badbf9;
+}
+.howto .footer{
+	position: relative;
 }
 .footer{
 	position: absolute;
@@ -340,6 +378,9 @@ input[type="checkbox"], input[type="radio"]{
 .register.footer a i{
 	color: #00509D;
 }
+.form-control{
+	border:0px;
+}
 .form-control-feedback{
 	pointer-events:auto;
 }
@@ -349,7 +390,9 @@ input[type="checkbox"], input[type="radio"]{
 }
 #addinput:hover{
 	cursor:pointer;
-
+}
+.has-feedback input{
+	margin-bottom: 2px;
 }
 
 @media(max-height:400px) {
@@ -367,8 +410,21 @@ input[type="checkbox"], input[type="radio"]{
 	}
 
 }
+@media(max-width:540px) {
+	body{
+		font-size: 14px;
+	}
+	.footer a img{
+		width: 25px;
+		padding-right: 3px;
+		padding-bottom: 3px;
+	}
+
+}
 @media(min-width:1024px) {
-	.home{
+	.home-logo img{
+		width:400px;	
+		vertical-align: middle;
 	}
 	.home-text{
 		font-size: 1.3em;

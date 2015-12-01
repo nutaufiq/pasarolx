@@ -8,17 +8,17 @@ for (var i=0; i<checkboxes.length; i++)  {
 }
 
 $('#pilih-area').change(function() {
-	$('#form-pilih-kategori').show('fast');
-});
-
-$('input[type=radio][name=kategori]').change(function() {
 	$('#form-pilih-tanggal').show('fast');
 });
 
 $('#tanggal1').change(function() {
-	$('#form-data').show('fast');
+	$('#form-pilih-kategori').show('fast');
 });
 $('#tanggal2').change(function() {
+	$('#form-pilih-kategori').show('fast');
+});
+
+$('input[type=radio][name=kategori]').change(function() {
 	$('#form-data').show('fast');
 });
 
@@ -33,12 +33,12 @@ $('#tanggal2').change(function() {
 //     //$(this).parent().remove();
 // });
 
-var wrapper = $(".input-iklan>div");
+var wrapper = $(".input-iklan");
 var add_button = $("#addinput");
 
 $(add_button).click(function (e) {
     e.preventDefault();
-    $(wrapper).after("<div class='has-feedback'><input type='text' class='form-control' placeholder='http://' /><span class='glyphicon glyphicon-remove form-control-feedback removeinput' aria-hidden='true'></span></div>"); //add input box
+    $(wrapper).append("<div class='has-feedback'><input type='text' class='form-control' placeholder='http://' /><span class='glyphicon glyphicon-remove form-control-feedback removeinput' aria-hidden='true'></span></div>"); //add input box
 });
 
 $(document).on("click",".form-control-feedback",function(){

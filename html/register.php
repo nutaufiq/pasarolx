@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="col-xs-12 col-md-4 col-md-offset-4 register">
-          <div class="register-logo"><center>PASAR <img src="images/logoolx.png"></center></div>
+          <div class="howto-logo"><center><img src="images/logoblue.png"></center></div>
           <div class="register-text"><center>Mohon isi formulir di bawah ini untuk bergabung</center></div>
 
           <form>
@@ -32,6 +32,16 @@
                     <option>Surabaya</option>
                     <option>Wonosobo</option>
                   </select>
+              </div>
+
+              <div class="form-group" id="form-pilih-tanggal">
+                  <div class="label-form">Pilih tanggal kehadiran</div>
+                  <label class="checkbox checkbox-tanggal">
+                    <input type="checkbox" id="tanggal1" value="option1"> 12 Desember
+                  </label>
+                  <label class="checkbox checkbox-tanggal">
+                    <input type="checkbox" id="tanggal2" value="option2"> 13 Desember
+                  </label>
               </div>
 
               <div class="form-group" id="form-pilih-kategori">
@@ -47,16 +57,6 @@
                   </label>
               </div>
 
-              <div class="form-group" id="form-pilih-tanggal">
-                  <div class="label-form">Pilih tanggal kehadiran</div>
-                  <label class="checkbox-inline">
-                    <input type="checkbox" id="tanggal1" value="option1"> 12 Desember
-                  </label>
-                  <label class="checkbox-inline">
-                    <input type="checkbox" id="tanggal2" value="option2"> 13 Desember
-                  </label>
-              </div>
-
               <div class="form-data" id="form-data">
                   <div class="label-form">Silahkan isi data dibawah</div>
                   <div class="form-group">
@@ -68,7 +68,7 @@
                     <input type="email" class="form-control">
                   </div>
                   <div class="form-group">
-                    <label>No Telepon</label>
+                    <label>No Handphone</label>
                     <input type="text" class="form-control">
                   </div>
                   <div class="form-group">
@@ -76,7 +76,7 @@
                     <textarea class="form-control" rows="3"></textarea>
                   </div>
                   <div class="form-group">
-                    <label>Plat Nomor (Bila menggunakan mobil)</label>
+                    <label>Plat Nomor (Bila berjualan mobil)</label>
                     <input type="text" class="form-control">
                   </div>
                   <div class="form-group has-feedback input-iklan" id="link-iklan">
@@ -100,12 +100,20 @@
                       </label>
                   </div>
 
-                  <div class="register-button"><a href="register.php">KIRIM</a></div>
+                  <div class="register-button"><a href="thankyou.php">KIRIM</a></div>
               </div>
 
 
 
           </form>
+
+      <div class="footer">
+        <a href=""><img src="images/facebook.png"></a>
+        <a href=""><img src="images/twitter.png"></a>
+        <a href=""><img src="images/instagram.png"></a>
+        <a href=""><img src="images/youtube.png"></a>
+        <div class="powered">Powered by OLX.co.id</div>
+      </div>
 
     </div>
 
@@ -116,7 +124,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="termss">
-                    <div class="terms-logo"><center>PASAR <img src="images/logoolx.png"></center></div>
+                    <div class="howto-logo"><center><img src="images/logoblue.png"></center></div>
                     <div class="terms-text">
                     Mohon dibaca terlebih dahulu
                     <ol>
@@ -127,6 +135,7 @@
                       <li>Silakan menjaga keamanan barang yang Anda jual, OLX tidak bertanggung jawab atas kehilangan atau kerugian yang Anda alami selama acara. </li>
                     </ol>              
                   </div>
+                  <center><button class="btn btn-sm btn-terms" data-dismiss="modal" aria-label="Close">OK</button></center>
             </div>
         </div>
       </div>

@@ -23,20 +23,21 @@
     <div class="col-xs-12 col-md-4 col-md-offset-4 thankyou">
       <div class="banner-box">
         <div class="banner-boxcontent">
-          <div class="thankyou-logo"><center>PASAR <img src="images/logoolx.png"></center></div>
-          <div class="thankyou-name">
-            <center><img src="images/selamat.png"></center>
-            Poppy Janes
-          </div>
-          <div class="thankyou-id">            
-              Anda telah sukses mendaftar<br>
-              no ID kamu adalah<br>
-              <span>1267906</span>
-          </div>
-          <div class="thankyou-text">Selanjutnya, nantikan email dari kami untuk proses berikutnya.</div>
+          <div class="thankyou-logo"><center><img src="images/logowhite.png"></center></div>
+          <div class="thankyou-message">Thank You</div>
+          <div class="thankyou-name">Olivia Willyost</div>
+          <div class="thankyou-message2">Kamu sudah terdaftar dengan nomor</div>
+          <div class="thankyou-id">1234567</div>
+          <div class="thankyou-text">Tim OLX akan segera menghubungi kamu untuk proses selanjutnya</div>
          </div>
       </div>
-      <div class="footer">Follow us on <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-twitter"></i></a> <div class="powered">Powered by OLX.co.id</div></div>
+      <div class="footer">
+        <a href=""><img src="images/facebook.png"></a>
+        <a href=""><img src="images/twitter.png"></a>
+        <a href=""><img src="images/instagram.png"></a>
+        <a href=""><img src="images/youtube.png"></a>
+        <div class="powered">Powered by OLX.co.id</div>
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
