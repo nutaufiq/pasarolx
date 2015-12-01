@@ -79,11 +79,13 @@
                     <label>Plat Nomor (Bila menggunakan mobil)</label>
                     <input type="text" class="form-control">
                   </div>
-                  <div class="form-group" id="link-iklan">
+                  <div class="form-group has-feedback input-iklan" id="link-iklan">
                     <label>Link iklan di OLX</label>
-                    <input type="text" class="form-control" placeholder="http://">
-                  </div>
-                  <div class="addinput"><a id="addinput">tambah link</a></div>
+                    <div><input type="text" class="form-control" placeholder="http://"></div>
+<!--                     <div><input type="text" class="form-control" placeholder="http://"></div>
+                    <div class="glyphicon glyphicon-remove form-control-feedback removeinput" aria-hidden="true"></div>
+ -->                  </div>
+                  <div class="addinput"><a id="addinput"><span class="glyphicon glyphicon-plus-sign"></span> tambah link</a></div>
 
                   <div class="checkbox">
                       <label>

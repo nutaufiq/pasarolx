@@ -4,6 +4,10 @@ html, body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 10px;
 }
+.has-feedback label ~ .form-control-feedback{
+	top:44px;
+	color: #FFF;
+}
 .btn{
 	border-radius: 0px;
 }
@@ -135,6 +139,9 @@ html, body{
 	color:#00509D;
 	text-align: center;
 }
+#pilih-area option{
+	padding: 3px 0px;
+}
 #form-pilih-kategori{
 	display: none;
 }
@@ -212,12 +219,18 @@ html, body{
 }
 .addinput{
 	text-align: center;
+	margin-bottom: 10px;
+}
+.addinput a{
+	font-size: 0.9em;
 }
 
 input[type="checkbox"], input[type="radio"]{
 	margin: 0px;
 }
-
+.checkbox input[type="checkbox"]{
+	margin-top: -6px;
+}
 .termss{
 	color:#00509D;
 }
@@ -279,27 +292,27 @@ input[type="checkbox"], input[type="radio"]{
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #000;
+    color:    #badbf9;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #000;
+   color:    #badbf9;
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #000;
+   color:    #badbf9;
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    #00;
 }
 .form-control::-webkit-input-placeholder{
-	color: #727272;
+	color: #badbf9;
 }
 .form-control:-moz-placeholder{
-	color: #727272;
+	color: #badbf9;
 }
 .form-control::-moz-placeholder{
-	color: #727272;
+	color: #badbf9;
 }
 .footer{
 	position: absolute;
@@ -327,6 +340,18 @@ input[type="checkbox"], input[type="radio"]{
 .register.footer a i{
 	color: #00509D;
 }
+.form-control-feedback{
+	pointer-events:auto;
+}
+.form-control-feedback:hover{
+	cursor: pointer;
+	color:#FFF;
+}
+#addinput:hover{
+	cursor:pointer;
+
+}
+
 @media(max-height:400px) {
 	.home-logo{
 		text-align: center;
@@ -342,7 +367,7 @@ input[type="checkbox"], input[type="radio"]{
 	}
 
 }
-@media(min-width:1280px) {
+@media(min-width:1024px) {
 	.home{
 	}
 	.home-text{
@@ -351,4 +376,11 @@ input[type="checkbox"], input[type="radio"]{
 	.thankyou-text{
 		font-size: 1.3em;
 	}
+	.howto-text{
+		font-size: 1.3em;
+	}
+	.register{
+		font-size: 1.1em;
+	}
+
 }
