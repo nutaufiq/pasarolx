@@ -1,0 +1,354 @@
+html, body{
+	height:100%;
+	width:100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+}
+.btn{
+	border-radius: 0px;
+}
+.btn-primary{
+	background-color: #c5c2c2;
+	border: 1px solid #CCC;	
+	color: #727272;	
+}
+.btn-primary:hover, .btn-primary:focus{
+	background-color: #A8A8A8;		
+	border: 1px solid #CCC;	
+}
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary{
+	background-color: #A8A8A8;	
+	border: 1px solid #CCC;	
+	color: #727272;	
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover{
+	background-color: #A8A8A8;
+}
+.home{
+	height: 100%;
+	text-align: center;
+	background-image: url(../images/bgimage-lg.jpg);
+	background-size: cover;	
+	background-position: center center;
+	background-attachment: fixed;
+}
+.home-text{
+	color: #FFF;
+	text-align: center;
+	width: 100%;
+	line-height: 2em;
+}
+.banner-box{
+    display: table;
+    height:100%;
+    width:100%;
+    color: #FFF;
+}
+.banner-boxcontent{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home-logo{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 3em;
+	font-weight: 100;
+}
+.home-logo img{
+	width:40px;	
+	vertical-align: middle;
+}
+.home-selamat{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.home-button{
+	margin-top: 40px;	
+	margin-bottom: 40px;	
+}
+.home-button a{
+	background-color: #00509D;
+	color: #FFF;
+	padding: 10px 40px;
+	font-size: 1.5em;
+}
+.home-button a:hover{
+	background-color: #0262B2;
+	text-decoration: none;
+}
+.howto{
+	background-color: #00509D;
+	text-align: center
+	color: #FFF;
+	height: 100%;
+}
+.howto-logo{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 3em;
+	font-weight: 100;
+	color: #FFF;
+}
+.howto-logo img{
+	width:40px;	
+	vertical-align: middle;
+}
+.howto-text{
+	line-height: 2em;
+	text-align: left;
+	color: #FFF;
+}
+.howto-text ol{
+	padding-left:15px;
+}
+.howto-button{
+	margin-top: 30px;	
+	margin-bottom: 40px;	
+	text-align: center;
+}
+.howto-button a{
+	background-color: #F37721;
+	color: #FFF;
+	padding: 10px 40px;
+	font-size: 1.5em;
+}
+.howto-button a:hover{
+	background-color: #F2995C;
+	text-decoration: none;
+}
+.howto-logo{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 3em;
+	font-weight: 100;
+	color: #FFF;
+}
+.howto-logo img{
+	width:40px;	
+	vertical-align: middle;
+}
+
+.register{
+	background-color: #FFF;
+	color:#00509D;
+	text-align: center;
+}
+#form-pilih-kategori{
+	display: none;
+}
+#form-pilih-tanggal{
+	display: none;
+}
+#form-data{
+	display: none;
+}
+.register-logo{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 2em;
+	font-weight: 100;
+	color: #00509D;
+}
+.register-logo img{
+	width:20px;	
+	vertical-align: middle;
+}
+.register form{
+	text-align: left;
+}
+.register .form-group{
+	margin-bottom: 10px;
+}
+.register form .label-form{
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+.register-text{
+	margin-bottom: 10px;
+}
+.register .form-control{
+	font-size: 1em;
+}
+.register select.form-control{
+	background-color: #6897c2;
+	color: #FFF;
+	border-radius: 3px;
+}
+.form-data .form-group label{
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+.form-data input{
+	background-color: #6897c2;
+	color: #FFF;
+	height: 30px
+}
+.form-data textarea{
+	background-color: #6897c2;
+	color: #FFF;	
+}
+.register-button{
+	margin-top: 30px;	
+	margin-bottom: 40px;	
+	text-align: center;
+}
+.register-button a{
+	background-color: #F37721;
+	color: #FFF;
+	padding: 10px 40px;
+	font-size: 1.5em;
+}
+.register-button a:hover{
+	background-color: #F2995C;
+	text-decoration: none;
+}
+.form-data .checkbox a{
+	text-decoration: underline;
+}
+.addinput{
+	text-align: center;
+}
+
+input[type="checkbox"], input[type="radio"]{
+	margin: 0px;
+}
+
+.termss{
+	color:#00509D;
+}
+.terms-logo{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 2em;
+	font-weight: 100;
+	color: #00509D;
+}
+.terms-logo img{
+	width:20px;	
+	vertical-align: middle;
+}
+.terms-text ol{
+	padding-left: 15px;
+}
+.modal-header{
+	padding: 3px 0px 0px;
+	border-bottom: 0px;
+}
+.modal-content{
+	padding: 0px 15px 15px 15px;
+}
+
+.thankyou{
+	background-color: #00509D;	
+	text-align: center;
+	height: 100%;
+}
+.thankyou-logo{
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 3em;
+	font-weight: 100;
+	color: #FFF;
+}
+.thankyou-logo img{
+	width:40px;	
+	vertical-align: middle;
+}
+.thankyou-name{
+	font-size: 2em;
+	text-align: center;
+	color: #FFF;
+}
+.thankyou-name img{
+	margin-top:10px;
+	width: 120px;
+}
+.thankyou-id{
+	margin-top: 20px;
+}
+.thankyou-id span{
+	font-size: 3em;
+	color: #F37721;
+	line-height: 3em;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #000;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #00;
+}
+.form-control::-webkit-input-placeholder{
+	color: #727272;
+}
+.form-control:-moz-placeholder{
+	color: #727272;
+}
+.form-control::-moz-placeholder{
+	color: #727272;
+}
+.footer{
+	position: absolute;
+	bottom: 5px;
+	color: #FFF;
+	font-size: 0.75em;
+	width: 90%;
+	text-align: left;
+}
+.footer i{
+	font-size: 2em;
+	padding-left: 10px;
+}
+.footer a i{
+	color: #FFF;
+}
+.footer .powered{
+	padding-top: 5px;
+	float: right;
+}
+.register.footer{
+	color: #00509D;
+	position: relative;	
+}
+.register.footer a i{
+	color: #00509D;
+}
+@media(max-height:400px) {
+	.home-logo{
+		text-align: center;
+		margin-bottom: 0px;
+		font-size: 3em;
+		font-weight: 100;
+	}
+	.thankyou-id span{
+		line-height: 1.7em;
+	}
+	.footer{
+		bottom: 5px;
+	}
+
+}
+@media(min-width:1280px) {
+	.home{
+	}
+	.home-text{
+		font-size: 1.3em;
+	}
+	.thankyou-text{
+		font-size: 1.3em;
+	}
+}
